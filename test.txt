@@ -1,1 +1,6 @@
 testttttttt
+
+
+git add filename
+git commit -m "test msg"
+git push
