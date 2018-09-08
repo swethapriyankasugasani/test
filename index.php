@@ -1,4 +1,4 @@
-Thank you for teaching me Git
+Thank you for teaching me Git Today
 
 --->git init  ----Initializing the git repo
 ---->git clone githiburl
