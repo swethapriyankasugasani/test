@@ -1,33 +1,31 @@
 Git Version Controller
 
+Initializing the Local Git file system
 
---->	git init              ----  Initializing the Local Git Folder
-
---->	git clone github_url  ----  Clone the github repo
-
+--->	git init            
 
 Push Files to Github Repo
 
 --->	git add filename
-		git commit -m "test msg"
-		git push --- to upload to repository
+--->	git commit -m "test msg"
+--->	git push 
 		
-
 Render Modified Files From Github Repo
 		
---->	git pull ---- to get files from git repository
-
+--->	git pull 
 
 Remove the file only from From the Local filesystem
 
 --->    git rm filename 
 --->    git commit -m "msg"
 	
-Remove the file only from the Git repository and not from the filesystem
-	
+Remove the file only from the Git repository
+
 --->	git rm --cached file1.txt
 --->    git commit -m "remove file1.txt"
-
-And to push changes to remote repo
-
 --->	git push origin branch_name
+
+
+Clone the exsisting github repo
+
+--->	git clone github_url  
